@@ -1,0 +1,240 @@
+JFDML JFormDesigner: "8.1.1.0.298" Java: "17.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "frame"
+			"background": new java.awt.Color( 153, 153, 153, 255 )
+			"$locationPolicy": 1
+			"$sizePolicy": 1
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "tabbedPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel5"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "yslLabel"
+						"icon": new com.jformdesigner.model.SwingIcon( 1, "/Users/isaiahshembo/Downloads/yslcandle.jpeg" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 10
+						"width": 200
+						"height": 185
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "maisonLabel"
+						"icon": new com.jformdesigner.model.SwingIcon( 1, "/Users/isaiahshembo/Downloads/jccandle.jpeg" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 185
+						"x": 270
+						"y": 10
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "tomLabel"
+						"icon": new com.jformdesigner.model.SwingIcon( 1, "/Users/isaiahshembo/Downloads/tfcandle.jpeg" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 185
+						"x": 530
+						"y": 10
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "Yves Saint Laurent"
+						"font": &Font0 new java.awt.Font( "Inter", 0, 10 )
+						"horizontalAlignment": 2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 210
+						"width": 200
+						"height": 25
+					} )
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "textArea1"
+						"text": "6 PLACE SAINT-SULPICE - LE VESTIAIRE DES PARFUMS - CANDLE"
+						"font": &Font1 new java.awt.Font( "Monospaced", 0, 8 )
+						"lineWrap": true
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 250
+						"width": 200
+						"height": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "$80.00"
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 15
+						"y": 310
+						"width": 200
+						"height": 15
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "Maison Margiela"
+						"font": #Font0
+						"horizontalAlignment": 2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 25
+						"x": 270
+						"y": 210
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "Tom Ford"
+						"font": #Font0
+						"horizontalAlignment": 2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 25
+						"x": 530
+						"y": 205
+					} )
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "textArea2"
+						"text": "REPLICA JAZZ CLUB "
+						"font": #Font1
+						"lineWrap": true
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 45
+						"x": 270
+						"y": 250
+					} )
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "textArea3"
+						"text": "Oud Wood Candle "
+						"font": #Font1
+						"lineWrap": true
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 45
+						"x": 530
+						"y": 245
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "$70.00"
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 15
+						"x": 270
+						"y": 300
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "$135.00"
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 15
+						"x": 530
+						"y": 300
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Candles"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel1"
+				}, new FormLayoutConstraints( null ) {
+					"title": "Receipt"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"y": 120
+				"x": 220
+				"width": 830
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+				name: "panel2"
+				"background": new java.awt.Color( 204, 204, 204, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Zay's Candles"
+					"font": new java.awt.Font( "ITF Devanagari", 3, 24 )
+					"foreground": new java.awt.Color( 0, 0, 0, 255 )
+					"horizontalAlignment": 0
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"height": 110
+				"width": 1210
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "table1"
+					"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+					}, new java.util.Vector {
+						add( "Name" )
+						add( "Qty" )
+						add( "Burn Time" )
+						add( "$ per burn time" )
+						add( "Price" )
+						add( "sub-total" )
+					}, new java.util.Vector {
+						add( class java.lang.String )
+						add( class java.lang.Integer )
+						add( class java.lang.Integer )
+						add( class java.lang.Double )
+						add( class java.lang.Double )
+						add( class java.lang.Double )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+					} )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 110
+				"y": 540
+				"width": 615
+				"height": 129
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "Total: "
+				"font": new java.awt.Font( "Inter", 1, 36 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 760
+				"y": 580
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+				"font": new java.awt.Font( "Inter", 0, 24 )
+				"text": "sample text"
+				"foreground": new java.awt.Color( 0, 0, 0, 255 )
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 890
+				"y": 580
+				"width": 155
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 5 )
+			"size": new java.awt.Dimension( 1215, 840 )
+		} )
+	}
+}
